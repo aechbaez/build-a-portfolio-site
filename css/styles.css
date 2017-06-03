@@ -1,0 +1,63 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #2d3c49;
+}
+
+.muted-text {
+  color: #d3d3d3;
+}
+
+.title-super {
+  font-family: 'Indie Flower', cursive;
+  font-size: 80px;
+  margin-top: 50px;
+}
+
+.title-sub{
+  margin-top: -20px;
+  font-size: 24px;
+}
+
+.main-logo {
+  margin-top: 40px;
+}
+
+.bold-horizontal-rule {
+  background-color: #7d97ad;
+  border-color: #7d97ad;
+  height: 4px;
+}
+
+.featured-works-title {
+  font-size: 36px;
+  margin-left: 10px;
+}
+
+/*
+ The mobile layout needed the most adjustment - below are the tweaks meade for the nexus 5 display.
+*/
+@media (max-width: 767px){
+  .title-super{
+    font-size: 40px !important;
+    line-height: 42px !important;
+  }
+
+  .title-sub {
+    font-size: 16px;
+  }
+
+  .main-logo {
+    margin-top: 20px;
+  }
+
+  .work-articles {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+
+  .featured-works-title {
+    text-align: center;
+    margin-left: 0;
+  }
+}
